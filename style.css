@@ -1,0 +1,91 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  font-family: "East Sea Dokdo", cursive;
+  background-image:url(https://okta-numberguessing-game.netlify.app/image/soju.jpeg);
+  background-size: cover;
+}
+
+.container{
+  border: 10px white solid;
+  border-radius: 20px;
+  background-color: rgba(247, 243, 242, 0.7);
+  text-align: center;
+}
+
+.first-text{
+  font-size : 5vw;
+  font-weight: bold;
+  color: blue;
+}
+
+.second-text{
+  font-size : 7vw;
+  font-weight: bold;
+}
+
+.third-text{
+  font-size : 6vw;
+  font-weight: bold;
+}
+
+.third-text span{
+  color: red;
+}
+
+.main-img{
+  width: 20vw;
+  height: 20vh;
+}
+
+.form-control{
+  height: 80px;
+  font-size: 3vw;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.button-style {
+  height: 80px;
+  width: 100px;
+  margin-top: 5px;
+  border-radius: 50px;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+@media screen and (max-width:48rem){
+  .first-text{
+    font-size : 10vw;
+  }
+
+  .second-text{
+    font-size : 12vw;
+  }
+
+  .third-text{
+    font-size : 11vw;
+  }
+
+  .form-control{
+    font-size: 8vw;
+    max-width: 500px;
+    margin-right: 0px;
+  }
+
+  .button-reset {
+    font-size: 5vw;
+    width: 80px;
+    height: 60px;
+  }
+  
+  .main-img {
+    width: 40vw;
+  }
+
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--font-family-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!--Bootstrap CSS code-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="first-text">코알누 대학 엠티</h1>
+        <h1 class="second-text">술게임</h1>
+        <h1 class="third-text"><span>죽음</span>의 업 & 다운</h1>
+      </div>
+
+      <div class="result-page">
+        <img
+          src="https://media1.giphy.com/media/9DinPR8bzFsmf74j9W/giphy.gif"
+          class="main-img"
+        />
+        <h1 class="result-text">죽기 싫다면 맞춰라</h1>
+      </div>
+
+      <div>
+        <h2 id="userChance">남은 기회 : 5</h2>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <input
+            type="number"
+            placeholder="1부터 100까지 숫자를 입력"
+            class="form-control"
+            id="user-number"
+          />
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="btn btn-success button-style mb-2" id="goButton">
+            Go!!
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <button type="button" class="btn btn-warning button-style mt-3 button-reset" id="reset=button">
+      리셋!
+    </button>
+
+    <!--Bootstrap JS code-->
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
